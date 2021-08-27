@@ -1,0 +1,119 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body {
+  font-size: 25px;
+  font-family: Lucida Console;
+  background-color: Moccasin;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  border-right: 3px dotted white;
+  border-top: 3px dotted white;
+  border-bottom: 3px dotted white;
+  background: linear-gradient(to top, Magenta, MediumSlateBlue);
+}
+nav {
+  border-bottom: 5px solid SlateBlue;
+  background-color: white;
+  padding: 5px 5px 20px 5px;
+}
+.nav-link::before {
+  content: "o";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  background: linear-gradient(to bottom, Magenta, MediumSlateBlue);
+}
+.header span {
+  color: DarkSlateBlue;
+  font-weight: 900;
+  background-color: MediumPurple;
+  padding: 5px;
+  border: 1px solid MediumPurple;
+  border-radius: 15px;
+}
+.header span:hover {
+  font-size: 32px;
+} 
+.header {
+  color: Indigo;
+  margin: 55px;
+  background: linear-gradient(to bottom, SlateBlue, Orchid);
+  padding: 15px;
+  border-left: 5px dotted Navy;
+}
+.Harry-Potter-img {
+  display: flex;
+  border: 5px solid black;
+  width: 450px;
+  align-items: center;
+  background-color: white;
+}
+.Harry-Potter-img2 {
+  display: flex;
+  border: 5px solid black;
+  width: 475px;
+  align-items: center;
+  background-color: white;
+}
+.Harry-Potter {
+  display: flex;
+  justify-content: space-between;
+}
+.divp{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 25px;
+  border: 5px dashed grey
+}
+.divp:hover {
+  background-color: MediumSlateBlue;
+    color: white;
+  border: 5px dashed white;
+  
+}
+.avtor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 5px solid grey;
+  margin: 100px;
+}
+.avtor p{
+  margin-right: 50px;
+}
+.avtorr {
+  margin: 100px;
+  border: 5px dotted tomato;
+}
+.money {
+  background: linear-gradient(45deg, Magenta, MediumSlateBlue);
+  padding: 50px;
+  color: white;
+  border-top: 5px solid BlueViolet;
+  padding-bottom: 300px;
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 200px;
+  background-color: MediumSlateBlue;
+  border: 5px dashed black;
+  padding: 5px;
+  border-radius: 25px;
+}
